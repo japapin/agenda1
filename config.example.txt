@@ -1,0 +1,10 @@
+# Configuração de Variáveis de Ambiente para Flask
+
+DATABASE_URL=sqlite:///agenda.db
+# Para produção, use: mysql+pymysql://user:password@host:port/database
+
+GOOGLE_SHEETS_API_KEY=AIzaSyC2V1h6GwyJkvvovyZBAODcZTWhkWKjsnE
+# Substitua pela sua chave de API do Google
+
+FLASK_ENV=production
+FLASK_DEBUG=False
